@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: inventory
+data:
+  DB_HOST: db
+  DB_NAME: inventory
+  DB_USER: inventory_user
